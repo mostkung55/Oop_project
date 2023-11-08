@@ -29,8 +29,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 	private ImageIcon player1 = new ImageIcon(this.getClass().getResource("p3.png"));
 	private ImageIcon land = new ImageIcon(this.getClass().getResource("stone.png"));
 	private ImageIcon heal = new ImageIcon(this.getClass().getResource("heart.png"));
-	// private ImageIcon pbullet = new ImageIcon(this.getClass().getResource("bullet.png"));
-	// private ImageIcon d1 = new ImageIcon(this.getClass().getResource("d4.png"));
 	private ImageIcon gameoverBG = new ImageIcon(this.getClass().getResource("bgover.jpg"));
 	private ImageIcon btrestart = new ImageIcon(this.getClass().getResource("btrestart.png"));
 
