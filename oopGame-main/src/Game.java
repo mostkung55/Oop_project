@@ -29,8 +29,8 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 	private ImageIcon player1 = new ImageIcon(this.getClass().getResource("p3.png"));
 	private ImageIcon land = new ImageIcon(this.getClass().getResource("stone.png"));
 	private ImageIcon heal = new ImageIcon(this.getClass().getResource("heart.png"));
-	private ImageIcon pbullet = new ImageIcon(this.getClass().getResource("bullet.png"));
-	private ImageIcon d1 = new ImageIcon(this.getClass().getResource("d4.png"));
+	// private ImageIcon pbullet = new ImageIcon(this.getClass().getResource("bullet.png"));
+	// private ImageIcon d1 = new ImageIcon(this.getClass().getResource("d4.png"));
 	private ImageIcon gameoverBG = new ImageIcon(this.getClass().getResource("bgover.jpg"));
 	private ImageIcon btrestart = new ImageIcon(this.getClass().getResource("btrestart.png"));
 
@@ -38,7 +38,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
 	private block[] blockset = makeblockset(1);
 	private block[] healset = makeblockset2(2);
-	private block[] devilset = makeblockset2(3);
+	// private block[] devilset = makeblockset2(3);
 	
 	public ArrayList<bullett> bullet1 = new ArrayList<bullett>();
 	public ArrayList<devile> de = new ArrayList<devile>();
@@ -52,15 +52,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
 	}
 
-	class SmallBall {
-		int length;
-		int angle;
-
-		SmallBall(int length, int angle) {
-			this.length = length;
-			this.angle = angle;
-		}
-	}
 
 	public void reset_game() {
 		this.LastPress = 0;
@@ -208,8 +199,8 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 		// TODO Auto-generated method stub
 		if (System.currentTimeMillis() - LastPress > 600) {
 			if (e.getKeyCode() == KeyEvent.VK_SPACE) {
-				Musicclass s1 = new Musicclass();
-				s1.Bgsound();
+				// Musicclass s1 = new Musicclass();
+				// s1.Bgsound();
 				System.out.println("jump");
 				P1.jump(this);
 				this.repaint();

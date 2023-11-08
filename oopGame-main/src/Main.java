@@ -20,8 +20,8 @@ public class Main extends JFrame implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == mg.BStart) {
-			click s2 = new click();
-			s2.sound2();
+			// click s2 = new click();
+			// s2.sound2();
 			this.setLocationRelativeTo(null);
 			this.setSize(1000, 600);
 			this.remove(mg);

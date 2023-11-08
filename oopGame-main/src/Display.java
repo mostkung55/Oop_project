@@ -14,8 +14,8 @@ public class Display extends JPanel implements KeyListener
     private ImageIcon start = new ImageIcon(this.getClass().getResource("btplay2.png"));
     public JButton BStart = new JButton(start);
     Display(){
-    	musicbg s2 = new musicbg();
-    	s2.Bgsound2();
+    	// musicbg s2 = new musicbg();
+    	// s2.Bgsound2();
     	
         setLayout(null);
 		BStart.setBounds(330, 290, 350, 150);
