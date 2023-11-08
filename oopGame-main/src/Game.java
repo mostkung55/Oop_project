@@ -78,13 +78,13 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 				if (score >= 0) {
 					g2.drawImage(bg1.getImage(), 0, 0, 1000, 600, this);
 				}
-				if (score >= 50) {
+				if (score >= 100) {
 					g2.drawImage(bg2.getImage(), 0, 0, 1000, 600, this);
 				}
-				if (score >= 100) {
+				if (score >= 150) {
 					g2.drawImage(bg3.getImage(), 0, 0, 1000, 600, this);
 				}
-				if (score >= 150) {
+				if (score >= 200) {
 					g2.drawImage(bg4.getImage(), 0, 0, 1000, 600, this);
 				}
 
