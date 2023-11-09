@@ -29,8 +29,8 @@ public class Display extends JPanel implements KeyListener
     public void paintComponent(Graphics g){
         super.paintComponent(g);
         g.drawImage(bg.getImage(),0,0,1000,600,this);
-        g.setColor(Color.BLACK);
-        g.setFont(new Font("2005_iannnnnTKO",Font.CENTER_BASELINE,90));
+        // g.setColor(Color.BLACK);
+        // g.setFont(new Font("2005_iannnnnTKO",Font.CENTER_BASELINE,90));
         
 
     }

@@ -7,7 +7,7 @@ import javax.swing.*;
 public class player {
 	public int x, y, playersize, score = 0;
 	public int jumphigh = 150;
-	private boolean hitDevile = false; // ตัวแปรสถานะการชนกับ devile
+	// private boolean hitDevile = false; // ตัวแปรสถานะการชนกับ devile
 
 	// static AudioStream as;
 	public player(int x, int y, int playersize) {
@@ -35,7 +35,7 @@ public class player {
 
 
 
-	public boolean checkHit(devile d) {
+	public boolean checkHit(devil d) {
         Rectangle2D playerBounds = new Rectangle2D.Double(x, y, playersize, playersize);
         Rectangle2D devileBounds = d.getbound();
         return playerBounds.intersects(devileBounds);

@@ -12,7 +12,7 @@ public class event {
 
 		return false;
 	}
-	public static boolean checkHit(player p, devile d) {
+	public static boolean checkHit(player p, devil d) {
         Rectangle2D playerBounds = new Rectangle(p.x, p.y, p.playersize, p.playersize);
         Rectangle2D devileBounds = new Rectangle(d.getX(), d.getY(), 80, 80);
         return playerBounds.intersects(devileBounds);

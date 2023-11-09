@@ -39,7 +39,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 	// private block[] devilset = makeblockset2(3);
 	
 	public ArrayList<bullett> bullet1 = new ArrayList<bullett>();
-	public ArrayList<devile> de = new ArrayList<devile>();
+	public ArrayList<devil> de = new ArrayList<devil>();
 
 	public Game() {
 
@@ -244,7 +244,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 		public void run() {
 			while (true) {
 				try {
-					de.add(new devile());
+					de.add(new devil());
 					Thread.sleep(2000);
 
 				} catch (Exception e) {
