@@ -4,11 +4,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-    public class jaii {
+    public class heart {
     public int x,y,width,height,speed;
     private int xstart;
     public boolean hit = false;
-    public jaii() {
+    public heart() {
 
 
 
@@ -17,7 +17,7 @@ import javax.swing.Timer;
         this.x = this.xstart;
         this.hit = false;
     }
-    public jaii(int x,int y,int w,int h,int speed,JPanel game) {
+    public heart(int x,int y,int w,int h,int speed,JPanel game) {
         this.x=x;
         this.y=y;
         this.width=w;

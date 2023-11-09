@@ -51,7 +51,7 @@ public class devil {
 					de = null;
 					x = (int) ((Math.random() + 1000));
 					
-					y = -10;
+					
 				}
 				try {
 					de.sleep(20);
